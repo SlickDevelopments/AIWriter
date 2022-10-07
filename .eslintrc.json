@@ -1,18 +1,19 @@
 {
   "env": {
-      "browser": true,
-      "node": true,
-      "commonjs": true,
-      "jest": true,
-      "es6": true
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "jest": true,
+    "es6": true
   },
-  "extends": [
+  
+  "extends":[
     "eslint:recommended",
     "airbnb",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:import/errors",
-    "plugin:import/warnings",
+    "plugin:import/warnings"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -24,24 +25,31 @@
     }
   },
   "plugins": [
-      "react",
-      "react-hooks",
-      "jsx-a11y",
-      "import"
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "import"
   ],
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx"],
-        "paths": ["./src", "./node_modules"],
-        "moduleDirectory": ["src", "node_modules"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ],
+        "paths": [
+          "./src",
+          "./node_modules"
+        ],
+        "moduleDirectory": [
+          "src",
+          "node_modules"
+        ]
       }
     },
     "react": {
       "version": "detect"
     }
   },
-  "rules": {
-
-  }
+  "rules": {}
 }
