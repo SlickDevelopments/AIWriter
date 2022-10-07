@@ -1,7 +1,7 @@
 {
   "name": "aiwriter",
   "version": "0.1.0",
-  "homepage": "https://github.com/SlickDevelopments/AIWriter.git"
+  "homepage": "https://github.com/SlickDevelopments/AIWriter.git",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-+   "deploy": "AIWriter -d build",
+    "deploy": "aiwriter -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
